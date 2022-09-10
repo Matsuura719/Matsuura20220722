@@ -1,0 +1,233 @@
+// 5日間のインターンで作った五反田飲食店紹介サイトです。HTML、CSS、Javascriptを使用しています。
+// 189行目から下がJavascriptファイルの内容となっています。CSSファイルは行数が長いため、別でアップロードしています。
+
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>プレゼンテーション用資料</title>
+<link rel="stylesheet" href="style (1).css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js(1)"></script>
+
+</head>
+<body>
+
+    <ul class="topnav">
+        <li class="right"><a class="btn-box5" href="#f4">カフェ</a></li>
+        <li class="right"><a class="btn-box2" href="#s3">中華</a></li>
+        <li class="right"><a class="btn-box3" href="#h2">洋食</a></li>
+        <li class="right"><a class="btn-box4" href="#a1">和食</a></li>
+    </ul>
+
+    <div class="ill">五反田周辺ランチスポット</div>
+
+        <div id="wrap" class="cd-fixed-bg cd-bg-1">
+        </div>
+    
+    <div id="a1" class="cd-fixed-bg2 cd-bg-2">
+        <h1>和食<h1>
+    </div> 
+  
+    <div class="cd-scrolling-bg cd-color-2">
+        <div class="cd-container con2">
+            <ul>
+                <p>東邦食堂五反田TOC店　：　<span class="sho">定食の”定番”が食べたいときに！肉から魚まで多彩な定食</span></p></li>
+                <p><div class ="pin1-1"><img src="pin1-1.png" width="70" height="70"></div></p>
+                <p>五反田はるはる亭：　<span class="sho">うどんと丼ものが定番！丼ぶりセットはどれも満足感のある内容</span></p></li>
+                <p><div class ="pin1-2"><img src="pin1-2.png" width="70" height="70"></div></p>
+                <p>HotSpoon　：　<span class="sho">ボリュームたっぷり具沢山なカレーが特徴の専門店！</span></p></li>
+                <p><div class ="pin1-3"><img src="pin1-3.png" width="70" height="70"></div></p>
+            </ul>
+            <div class="gazo1">
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661924104424!6m8!1m7!1sBeeRX30M63ilXQ3DE6dHqw!2m2!1d35.62120318966005!2d139.7189178031323!3f346.32675!4f0!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661924104424!6m8!1m7!1sBeeRX30M63ilXQ3DE6dHqw!2m2!1d35.62120318966005!2d139.7189178031323!3f346.32675!4f0!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661924413844!6m8!1m7!1s2ua_eP5Vry6quqo00X9DgA!2m2!1d35.62581847485716!2d139.7253976343357!3f25.163109!4f0!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+            </div>
+        </div> 
+    </div> 
+
+    <div id="h2" class="cd-fixed-bg2 cd-bg-3">
+        <h1>洋食<h1>
+    </div> 
+  
+    <div class="cd-scrolling-bg cd-color-3">
+        <div class="cd-container con5">
+            <ul>
+                <p>グリルエフ　：　<span class="sho">レトロで本格的な洋食がすぐ近くで味わえる！デミグラスソースは必見！</span></p></li>
+                <p><div class ="pin2-1"><img src="pin2-1.png" width="70" height="70"></div></p>
+                <p>ロココ　：　<span class="sho">カレーやフライといった定番がそろった懐かしい雰囲気の洋食店。</span></p></li>
+                <p><div class ="pin2-2"><img src="pin2-2.png" width="70" height="70"></div></p>
+                <p>Revo五反田　：　<span class="sho">おしゃれな空間で味わうがっつり肉料理は絶品！</span></p></li>
+                <p><div class ="pin2-3"><img src="pin2-3.png" width="70" height="70"></div></p>
+            </ul>
+            <div class="gazo1">
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661921430819!6m8!1m7!1szvi3erm_AupBSg0QeLT1DQ!2m2!1d35.62645595851591!2d139.7243115078175!3f73.79704931384498!4f5.472144529073901!5f1.9587109090973311" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661921812159!6m8!1m7!1sholNCh1CsQ4l4mGlpK2KJg!2m2!1d35.62681067053251!2d139.7209209102816!3f8.291565203200278!4f-6.088715655457818!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661922299920!6m8!1m7!1slbG1H_K5T3JYT1XxN1V-wg!2m2!1d35.62767826701458!2d139.7265017079992!3f47.95039758506863!4f-6.516277016673499!5f1.9587109090973311" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+ 
+
+	<div id="s3" class="cd-fixed-bg2 cd-bg-4">
+        <h1>中華<h1>
+    </div> 
+  
+    <div class="cd-scrolling-bg cd-color-4">
+        <div class="cd-container con4">
+            <ul>
+                <p>陳麻家　：　<span class="sho">熱烈発汗幸福食！本場中国四川風麻婆豆腐丼 陳麻飯 ト 担々麺。</span></p></li>
+                <p><div class ="pin3-1"><img src="pin3-1.png" width="70" height="70"></div></p>
+                <p>中国料理　蘭軒　：　<span class="sho">ランチは800円均一！日本人になじみのある定番中華料理。</span></p></li>
+                <p><div class ="pin3-2"><img src="pin3-2.png" width="70" height="70"></div></p>
+                <p>恵比寿餃子　大豊記　：　<span class="sho">充分な満足感！魅力溢れるソウルフード！</span></p></li>
+                <p><div class ="pin3-3"><img src="pin3-3.png" width="70" height="70"></div></p>
+            </ul>
+            <div class="gazo1">
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661923840561!6m8!1m7!1sfbttwkq1INCoVGx1RGm5sg!2m2!1d35.62341560064159!2d139.7223912910913!3f344.5763!4f0!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661923757640!6m8!1m7!1s34rYZItNQYe_j6CDe-s9FQ!2m2!1d35.6270978655645!2d139.7206873330578!3f78.80554!4f0!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661923757640!6m8!1m7!1s34rYZItNQYe_j6CDe-s9FQ!2m2!1d35.6270978655645!2d139.7206873330578!3f78.80554!4f0!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+            </div>
+        </div> 
+    </div>
+
+    <div id="f4" class="cd-fixed-bg2 cd-bg-5">
+            <h1>カフェ<h1>
+    </div> 
+
+    <div class="cd-scrolling-bg cd-color-5">
+        <div class="cd-container con5">
+            <ul>
+                <p> au lait 五反田　：　<span class="sho">お洒落な店内で自分でカスタマイズしたカフェオレが飲める</span></p></li>
+                <p><div class ="pin4-1"><img src="pin4-1.png" width="70" height="70"></div></p>
+                <p>ブレッド＆コーヒー イケダヤマ　：　<span class="sho">自家製のもっちりパンと自家焙煎コーヒー</span></p></li>
+                <p><div class ="pin4-2"><img src="pin4-2.png" width="70" height="70"></div></p>
+                <p>TONER TOKYO　：　<span class="sho">シルバーとホワイトで落ち着いた雰囲気のモダンなカフェ</span></p></li>
+                <p><div class ="pin4-3"><img src="pin4-3.png" width="70" height="70"></div></p>
+            </ul>
+            <div class="gazo1">
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661922120565!6m8!1m7!1sH5YEs1a-z0aLCETO58Nf9Q!2m2!1d35.62665416409762!2d139.7248724563576!3f272.8!4f20.459999999999994!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661922168328!6m8!1m7!1s03kmIVVDA57I_MTUCpAOyQ!2m2!1d35.62894192553422!2d139.7253923342082!3f258.14!4f7.700000000000003!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+                <figure class="gazo_box">
+                    <a href="★参照するURL記述する" target="_blank">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1661922193066!6m8!1m7!1sv-SAT-QYWAPD5m1ctIeghA!2m2!1d35.62673225269306!2d139.7178166764019!3f202.12!4f3.180000000000007!5f0.7820865974627469" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cd-scrolling-bg2 cd-color-6">
+        <div class="cd-container con6">
+                <div class="form-style-2">
+                        <div class="form-style-2-heading">会社情報</div>
+                            <span class="sho">Corp. I_note</span>
+                            <p>代表者:○○</p>
+                            <p>住所:○○<br>
+                </div>
+        </div> 
+    
+    </div>
+
+
+    <p id="page-top"><a href="#wrap">PAGE TOP</a></p>
+    <footer>
+            <address> Copyright(C)2022 Corp.I_note Allright Reserved</address>
+    </footer>
+
+    <script type="text/javascript" src="javascript.js(1)"></script>
+</body>
+</html>
+
+// ----以下javascript----
+
+$(function() {
+    var showFlag = false;
+    var topBtn = $('#page-top');    
+    topBtn.css('bottom', '-100px');
+    var showFlag = false;
+    //スクロールが100に達したらボタン表示
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            if (showFlag == false) {
+                showFlag = true;
+                topBtn.stop().animate({'bottom' : '20px'}, 200); 
+            }
+        } else {
+            if (showFlag) {
+                showFlag = false;
+                topBtn.stop().animate({'bottom' : '-100px'}, 200); 
+            }
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+$(function(){
+	// #で始まるアンカーをクリックした場合に処理
+	$('a[href^=#]').click(function() {
+	   // スクロールの速度
+	   var speed = 400; // ミリ秒
+	   // アンカーの値取得
+	   var href= $(this).attr("href");
+	   // 移動先を取得
+	   var target = $(href == "#" || href == "" ? 'html' : href);
+	   // 移動先を数値で取得
+	   var position = target.offset().top;
+	   // スムーススクロール
+	   $('body,html').animate({scrollTop:position}, speed, 'swing');
+	   return false;
+	});
+ });
